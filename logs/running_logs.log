@@ -123,3 +123,145 @@ Source-Age: 242
 [2023-06-09 18:56:26,973: INFO: main: >>>>>>stage Data Ingestion Stage. completed<<<<<<<
 
 x=====================x]
+[2023-06-09 20:39:47,265: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:39:47,319: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:42:57,263: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:42:57,268: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:44:58,500: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:44:58,506: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:50:59,187: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:50:59,194: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:51:10,688: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:51:10,704: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:55:13,022: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:55:13,029: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:55:20,122: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:55:20,128: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 20:56:10,928: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 20:56:10,933: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:19:29,389: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:19:29,397: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:21:25,283: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:21:25,288: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:22:26,177: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:22:26,183: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:22:57,149: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:22:57,183: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:23:57,118: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:23:57,127: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:25:16,889: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:25:16,899: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 21:25:37,904: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 21:25:37,913: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 22:16:31,240: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 22:16:31,297: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-09 22:16:52,050: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-09 22:16:52,061: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 19:05:50,722: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-10 19:05:50,758: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 19:05:50,764: INFO: common: Created a directory at: artifacts/prepare_base_model]
+[2023-06-10 19:06:55,702: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-10 19:18:37,682: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-10 19:18:37,722: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 19:18:37,747: INFO: common: Created a directory at: artifacts/prepare_base_model]
+[2023-06-10 19:18:41,743: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-10 20:02:00,116: INFO: main: >>>>>>stage Data Ingestion Stage. started<<<<<<<]
+[2023-06-10 20:02:00,123: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-10 20:02:00,130: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 20:02:00,133: INFO: common: Created a directory at: artifacts]
+[2023-06-10 20:02:00,134: INFO: configuration: created directory at: artifacts]
+[2023-06-10 20:02:00,136: INFO: common: Created a directory at: artifacts/data_ingestion]
+[2023-06-10 20:02:00,136: INFO: configuration: created directory at: artifacts/data_ingestion]
+[2023-06-10 20:02:22,184: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EEE2:17B8:1DAF0E:24B52C:6484AC8A
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 17:02:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mia-kmia1760070-MIA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686416522.057568,VS0,VE357
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: edfe867381ac732f8fa42631afc07adf9dd27c82
+Expires: Sat, 10 Jun 2023 17:07:02 GMT
+Source-Age: 0
+
+]
+[2023-06-10 20:02:23,633: INFO: main: >>>>>>stage Data Ingestion Stage. completed<<<<<<<
+
+x=====================x]
+[2023-06-10 20:02:23,675: INFO: main: ****************************************]
+[2023-06-10 20:02:23,710: INFO: main: >>>>>>>>>>stage {STAGE_NAME} started <<<<<<<<<<]
+[2023-06-10 20:02:23,732: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-10 20:02:23,769: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 20:02:23,819: INFO: configuration: created directory at: artifacts]
+[2023-06-10 20:02:23,860: INFO: common: Created a directory at: artifacts/prepare_base_model]
+[2023-06-10 20:02:23,871: ERROR: main: local variable 'PrepareBaseModel' referenced before assignment]
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\examination8550\notebook\chicken-disease-classification\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 12, in main
+    PrepareBaseModel = PrepareBaseModel(config=prepare_base_model_config)
+UnboundLocalError: local variable 'PrepareBaseModel' referenced before assignment
+[2023-06-10 20:09:11,728: INFO: main: >>>>>>stage Data Ingestion Stage. started<<<<<<<]
+[2023-06-10 20:09:11,736: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-10 20:09:11,743: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 20:09:11,746: INFO: common: Created a directory at: artifacts]
+[2023-06-10 20:09:11,747: INFO: configuration: created directory at: artifacts]
+[2023-06-10 20:09:11,748: INFO: common: Created a directory at: artifacts/data_ingestion]
+[2023-06-10 20:09:11,749: INFO: configuration: created directory at: artifacts/data_ingestion]
+[2023-06-10 20:09:33,172: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EEE2:17B8:1DAF0E:24B52C:6484AC8A
+Accept-Ranges: bytes
+Date: Sat, 10 Jun 2023 17:09:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mia-kmia1760041-MIA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686416955.763447,VS0,VE93
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9e29bd786dd27820a8dd8ecea2de06ee16e28e31
+Expires: Sat, 10 Jun 2023 17:14:14 GMT
+Source-Age: 0
+
+]
+[2023-06-10 20:09:34,039: INFO: main: >>>>>>stage Data Ingestion Stage. completed<<<<<<<
+
+x=====================x]
+[2023-06-10 20:09:34,040: INFO: main: ****************************************]
+[2023-06-10 20:09:34,040: INFO: main: >>>>>>>>>>stage {STAGE_NAME} started <<<<<<<<<<]
+[2023-06-10 20:09:34,048: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-10 20:09:34,053: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-10 20:09:34,054: INFO: configuration: created directory at: artifacts]
+[2023-06-10 20:09:34,056: INFO: common: Created a directory at: artifacts/prepare_base_model]
+[2023-06-10 20:09:34,056: ERROR: main: local variable 'PrepareBaseModel' referenced before assignment]
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    obj.main()
+  File "c:\users\examination8550\notebook\chicken-disease-classification\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 12, in main
+    PrepareBaseModel = PrepareBaseModel(config=prepare_base_model_config)
+UnboundLocalError: local variable 'PrepareBaseModel' referenced before assignment
