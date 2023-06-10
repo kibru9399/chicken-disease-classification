@@ -9,9 +9,9 @@ class BaseModelPreparationPipeline:
     def main(self):
         config = ConfigurationManager()
         prepare_base_model_config = config.get_prepare_base_model_config()
-        PrepareBaseModel = PrepareBaseModel(config=prepare_base_model_config)
-        PrepareBaseModel.get_base_model()
-        PrepareBaseModel.update_base_model()
+        prepare_base_model = PrepareBaseModel(config=prepare_base_model_config)
+        prepare_base_model.get_base_model()
+        prepare_base_model.update_base_model()
 
 
 if __name__ == '__main__':
