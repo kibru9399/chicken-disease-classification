@@ -673,3 +673,35 @@ x=====================x]
 [2023-06-12 11:55:27,883: INFO: stage_04_evaluation: >>>>>>>>>>stage MODEL EVALUATION. completed <<<<<<<<<<
 
 ]
+[2023-06-12 12:25:36,524: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.0.2:8080]
+[2023-06-12 12:25:36,596: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-06-12 12:26:33,656: INFO: _internal: 127.0.0.1 - - [12/Jun/2023 12:26:33] "GET / HTTP/1.1" 200 -]
+[2023-06-12 12:27:31,059: INFO: _internal: 127.0.0.1 - - [12/Jun/2023 12:27:31] "POST /predict HTTP/1.1" 200 -]
+[2023-06-12 12:28:36,445: INFO: main: >>>>>>stage Data Ingestion Stage. started<<<<<<<]
+[2023-06-12 12:28:36,516: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 12:28:36,597: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 12:28:36,602: INFO: configuration: created directory at: artifacts]
+[2023-06-12 12:28:36,717: INFO: configuration: created directory at: artifacts/data_ingestion]
+[2023-06-12 12:28:36,819: INFO: data_ingestion: file already exists of size: ~11344.6435546875 KB]
+[2023-06-12 12:28:39,410: INFO: main: >>>>>>stage Data Ingestion Stage. completed<<<<<<<
+
+x=====================x]
+[2023-06-12 12:28:39,514: INFO: main: ****************************************]
+[2023-06-12 12:28:39,649: INFO: main: >>>>>>>>>>stage Prepare base model started <<<<<<<<<<]
+[2023-06-12 12:28:39,767: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 12:28:39,910: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 12:28:39,980: INFO: configuration: created directory at: artifacts]
+[2023-06-12 12:28:48,176: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-12 12:28:53,295: INFO: main: >>>>>>>>>>stage Prepare base model completed <<<<<<<<<<
+
+]
+[2023-06-12 12:28:53,518: INFO: main: ****************************************]
+[2023-06-12 12:28:53,628: INFO: main: >>>>>>>>>>stage TRAINING started <<<<<<<<<<]
+[2023-06-12 12:28:53,695: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 12:28:53,760: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 12:28:53,810: INFO: configuration: created directory at: artifacts]
+[2023-06-12 12:29:23,428: INFO: _internal: 127.0.0.1 - - [12/Jun/2023 12:29:23] "GET /train HTTP/1.1" 200 -]
+[2023-06-12 12:29:25,811: INFO: _internal: 127.0.0.1 - - [12/Jun/2023 12:29:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
