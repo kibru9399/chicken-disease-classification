@@ -535,3 +535,73 @@ x=====================x]
 [2023-06-11 20:59:42,897: INFO: main: >>>>>>>>>>stage TRAINING completed <<<<<<<<<<
 
 ]
+[2023-06-12 10:43:01,284: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 10:43:01,311: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 10:43:01,318: INFO: 3036202153: created directory at: artifacts]
+[2023-06-12 11:00:08,546: INFO: main: >>>>>>stage Data Ingestion Stage. started<<<<<<<]
+[2023-06-12 11:00:08,573: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 11:00:08,586: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 11:00:08,596: INFO: common: Created a directory at: artifacts]
+[2023-06-12 11:00:08,599: INFO: configuration: created directory at: artifacts]
+[2023-06-12 11:00:08,600: INFO: common: Created a directory at: artifacts/data_ingestion]
+[2023-06-12 11:00:08,601: INFO: configuration: created directory at: artifacts/data_ingestion]
+[2023-06-12 11:00:26,220: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info: 
+ Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3A70:3025:14F867:1A131A:6486D08A
+Accept-Ranges: bytes
+Date: Mon, 12 Jun 2023 08:00:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-chi-kigq8000060-CHI
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686556811.944557,VS0,VE208
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b4dfd3a0d8310b9376f0bd6a735ada086184f966
+Expires: Mon, 12 Jun 2023 08:05:11 GMT
+Source-Age: 0
+
+]
+[2023-06-12 11:00:27,324: INFO: main: >>>>>>stage Data Ingestion Stage. completed<<<<<<<
+
+x=====================x]
+[2023-06-12 11:00:27,332: INFO: main: ****************************************]
+[2023-06-12 11:00:27,336: INFO: main: >>>>>>>>>>stage Prepare base model started <<<<<<<<<<]
+[2023-06-12 11:00:27,347: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 11:00:27,431: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 11:00:27,472: INFO: configuration: created directory at: artifacts]
+[2023-06-12 11:00:27,517: INFO: common: Created a directory at: artifacts/prepare_base_model]
+[2023-06-12 11:00:29,690: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-12 11:00:30,382: INFO: main: >>>>>>>>>>stage Prepare base model completed <<<<<<<<<<
+
+]
+[2023-06-12 11:00:30,398: INFO: main: ****************************************]
+[2023-06-12 11:00:30,407: INFO: main: >>>>>>>>>>stage TRAINING started <<<<<<<<<<]
+[2023-06-12 11:00:30,419: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 11:00:30,429: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 11:00:30,432: INFO: configuration: created directory at: artifacts]
+[2023-06-12 11:00:30,461: INFO: common: Created a directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-12 11:00:30,463: INFO: common: Created a directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-12 11:00:30,466: INFO: common: Created a directory at: artifacts\training]
+[2023-06-12 11:04:52,433: INFO: main: >>>>>>>>>>stage TRAINING completed <<<<<<<<<<
+
+]
+[2023-06-12 11:04:52,436: INFO: main: ****************************************]
+[2023-06-12 11:04:52,437: INFO: main: >>>>>>>>>>stage MODEL EVALUATION started <<<<<<<<<<]
+[2023-06-12 11:04:52,456: INFO: common: yaml file: config\config.yaml is loaded succesfully.]
+[2023-06-12 11:04:52,470: INFO: common: yaml file: params.yaml is loaded succesfully.]
+[2023-06-12 11:04:52,472: INFO: configuration: created directory at: artifacts]
+[2023-06-12 11:06:10,933: INFO: common: json file save at: scores.json]
+[2023-06-12 11:06:10,934: INFO: main: >>>>>>>>>>stage MODEL EVALUATION completed <<<<<<<<<<
+
+]
